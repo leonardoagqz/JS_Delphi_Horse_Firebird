@@ -1,3 +1,0 @@
-JS_Delphi_Horse_Firebird
-
-Aplicação web; Fazer e Consultar Pedidos; Dashboard; 
