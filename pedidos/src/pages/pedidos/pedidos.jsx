@@ -1,5 +1,9 @@
+import Navbar from "../../components/navbar.jsx";
+
 function Pedidos(){
-    return <h1>Pedidos</h1>
+    return  <>
+        <Navbar/>
+   </> 
 }
 
 export default Pedidos;
