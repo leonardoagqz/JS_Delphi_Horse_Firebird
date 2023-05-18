@@ -3,7 +3,7 @@ import { Chart } from "react-google-charts"
 function Grafico(props){
 
     const options = {
-        legend: {position: "name"},
+        legend: props.legenda ? { } : {position: "none"},
         is3D: true
     }
 
@@ -12,7 +12,7 @@ function Grafico(props){
         <Chart chartType={props.chartType}
             data={props.dados}
             width="100%"
-            height="180px"
+            height="280px"
             options={options}
             legendToggle
         />
